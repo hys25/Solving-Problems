@@ -1,11 +1,3 @@
-// This program converts years into the months, days, hours, and seconds.
-//
-// References:
-//   https://www.mathsisfun.com/temperature-conversion.html
-//   https://en.wikibooks.org/wiki/JavaScript
-
-// Use your browser's built-in web development tools to view console output.
-
 "use strict";
 window.addEventListener("load", function () {
     setInterval (printTime, 1000);
