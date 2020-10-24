@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <title>Example</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    input {
+      width: 3em;
+      margin: 0em 1em 0em 0.5em;
+    }
+
+    #error {
+      font-weight: bold;
+      margin: 0.5em;
+    }
+    
+    table {
+      border: thin solid gray;
+      border-collapse: collapse;
+      margin: 1em;
+    }
+
+    th, td {
+      border: thin solid gray;
+      padding: 0.25em;
+      text-align: center;
+    }
+  </style>
+  <script defer src="activity2.js"></script>
+</head>
+
+<body>
+  <noscript>Enable JavaScript to see web page content.</noscript>
+
+  <h1>Temperature Conversion Table</h1>
+
+  <p>
+    <label for="start">Start:</label><input id="start"></input>
+    <label for="stop">Stop:</label><input id="stop"></input>
+    <label for="step">Step:</label><input id="step"></input></p>
+
+    <p><label id="error"></label></p>
+    
+    <hr>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Fahrenheit</th>
+        <th>Celsius</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+    </tbody>
+  </table>
+</body>
+
+</html>
