@@ -20,34 +20,50 @@ function uniquePoints(arr){
 }
 console.log(uniquePoints(arrPoints));
 
+
 // TASK:Output all keys from array
 function unique(arr) {
-
+    return Array.from(new Set (arr));
 }
-console.log(unique([1, 3, 5, 8, 1, 8, 2, 9, 0]))
+console.log(unique([1, 3, 5, 8, 1, 8, 2, 1]));
+
 
 // TASK:Output all keys, then all values and arrays from array
 let recipeArr = [
-    ['огурцов',   '500 гр'],
-    ['помидоров', '350 гр'],
-    ['сметаны',   '50 гр']
+    ['tomatos',   '10'],
+    ['bananas', '40'],
+    ['apples',   '20']
 ];
 
-
 let recipeMap = new Map( [ 
-    ['огурцов',   '500 гр'],
-    ['помидоров', '350 гр'],
-    ['сметаны',   '50 гр']
+    ['tomatos',   '10'],
+    ['bananas', '40'],
+    ['apples',   '20']
 ] );
 
 for (let goods of recipeMap.keys()) {
     console.log(goods);
 }
-
 for (let price of recipeMap.values()) {
     console.log(price);
 }
-
 for (let arrays of recipeMap.entries()) {
     console.log(arrays);
 }
+
+
+// TASK:Output unique elements
+let arr = [1, 3, 3, 1, 2, 5 ,6 ,6];
+// --1--
+let newArr1 = [...new Set(arr)];
+console.log(newArr1);
+// --2--
+let newArr2 = arr.filter( (item, index) => {
+    return arr.indexOf(item) === index; 
+});
+console.log(newArr2);
+//--3--
+let newArr3 = arr.reduce( (result, item) => {
+    return result.includes(item) ? result : [...result, item];
+}, []);
+console.log(newArr3);
