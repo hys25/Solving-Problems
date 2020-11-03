@@ -2,6 +2,19 @@
 let size = ["10px", "3em", "35pt", "-25px", "50%"];
 
 function calc(arr) {
+    let newArr = arr.map(function(el) {
+        return parseFloat(el);
+    });
+    newArr = newArr.filter( function(el) {
+        if (el > 0) return el;
+    });
+    newArr.sort((a,b) => { return a-b })
+        return newArr;
+}
+console.log( calc(size) );
+
+// --2--
+function calc2(arr) {
 let out = [];
     for (let i=0; i<arr.length; i++) {
         arr[i] = parseFloat(arr[i]);
@@ -12,4 +25,4 @@ let out = [];
     });
     return out;
 }
-console.log( calc(size) );
+console.log( calc2(size) );
