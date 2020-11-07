@@ -20,7 +20,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Карина/SecondSemester/11-DOM-and-BOM" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -34,6 +34,7 @@
       <updated>1604410010746</updated>
       <workItem from="1604410011823" duration="2215000" />
       <workItem from="1604484000815" duration="39000" />
+      <workItem from="1604742390321" duration="3915000" />
     </task>
     <servers />
   </component>
@@ -45,5 +46,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1129" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604484036099" />
+    <state x="966" y="256" key="Vcs.Push.Dialog.v2" timestamp="1604746409249">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="966" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604746409249" />
   </component>
 </project>
