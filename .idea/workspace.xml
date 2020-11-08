@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="231a2bbd-d8b8-44d2-b024-083b9dd4601a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Youtube/11-Array-comparison/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/11-Array-comparison/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Youtube/12-Sum-of-digits-of-transmitted-number/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Youtube/12-Sum-of-digits-of-transmitted-number/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Array-filter/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/09-Array-filter/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Caesar's-cipher/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/05-Caesar's-cipher/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Caesar's-cipher/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/05-Caesar's-cipher/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Chart.js-library/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/08-Chart.js-library/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Chart.js-library/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/08-Chart.js-library/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Mouse-Coordinates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/02-Mouse-Coordinates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Mouse-Coordinates/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/02-Mouse-Coordinates/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Mouse-Coordinates/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/02-Mouse-Coordinates/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Number-To-Object/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/10-Number-To-Object/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Number-To-Object/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/10-Number-To-Object/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Palindromes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/01-Palindromes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Palindromes/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/01-Palindromes/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Pop-Up-Window-Bootstrap4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/03-Pop-Up-Window-Bootstrap4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Pop-Up-Window-Bootstrap4/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/03-Pop-Up-Window-Bootstrap4/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Pop-Up-Window-Bootstrap4/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/03-Pop-Up-Window-Bootstrap4/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Progress-bar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/04-Progress-bar/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Progress-bar/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/04-Progress-bar/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Progress-bar/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/04-Progress-bar/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Prototype-func/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/06-Prototype-func/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Unique-points/script.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +22,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Youtube/12-Sum-of-nembers-from-transffered-num" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Gprog\SolvingProblems\Youtube\12-Sum-of-nembers-from-transffered-num" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Gprog\SolvingProblems\Youtube" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,7 +45,7 @@
       <workItem from="1604410011823" duration="2215000" />
       <workItem from="1604484000815" duration="39000" />
       <workItem from="1604742390321" duration="4664000" />
-      <workItem from="1604823380575" duration="2260000" />
+      <workItem from="1604823380575" duration="4433000" />
     </task>
     <servers />
   </component>
