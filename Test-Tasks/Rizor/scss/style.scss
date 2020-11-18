@@ -210,7 +210,8 @@ h1 h2 {
         &-title {
             @include font-rubic;
 
-            width: 900px;
+            width: 600px;
+            height: 300px;
             font-size: 80px;
             line-height: 100px;
             text-transform: uppercase;

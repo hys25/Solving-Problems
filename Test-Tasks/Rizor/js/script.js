@@ -65,4 +65,35 @@ let tl3 = gsap.timeline({
 });
 tl3
 	.fromTo(".section-match__block", 0.8, {x: -300, opacity: 0}, {x: 0, opacity: 1})
-	
+
+
+textCode("h1", 300, 100);
+function textCode(elements, time = 500, speed = 75) {
+	let code = "I don't know how to make a flying text, but I will definitely learn how to do it =)";
+	document.querySelectorAll(elements).forEach(elem => {
+		let origText = elem.textContent;
+		function randomText(){
+			let letters = elem.textContent.split('');
+			let codeText = [];
+			for (let i = 0; i < letters.length; i++) {
+				codeText.push(code.charAt(Math.floor(Math.random() * code.length)))
+			};
+			elem.textContent = codeText.join('');
+		};
+
+		elem.addEventListener('mouseenter', e => {
+			let interval = setInterval(() => {
+				randomText()
+			}, speed);
+
+			setTimeout(() => {
+				clearInterval(interval)
+				elem.textContent = origText;
+				elem.addEventListener('mouseout', e => {
+					clearInterval(interval)
+					elem.textContent = origText;
+				});
+			}, time);
+		});
+	});
+};	
