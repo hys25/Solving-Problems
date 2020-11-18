@@ -25,7 +25,7 @@ contentSection.forEach((current, index, array) => {
 gsap.fromTo(".section-promo__back-video", {autoAlpha: 0.2}, {autoAlpha: 0.6, duration: 2})
 let tl = new TimelineLite();
 tl
-	.to(".section-promo__back-video-play-btn", 0.7, {x: 0, y: 0, rotation: 360, delay: 1.7})
+	.to(".section-promo__back-video-play-btn", 0.7, {x: 0, y: 0, rotation: 360, delay: 0.7})
 	.fromTo(".section-promo__back-video", {autoAlpha: 0.6}, {autoAlpha: 1, duration: 1})
 
 //Benefits
@@ -38,9 +38,9 @@ let tl1 = gsap.timeline({
     }
 });
 tl1
-	.fromTo(".section-benefits__all-advantages-wrapper-color", 0.5, {y: -200, opacity: 0}, {y: 0, opacity: 1})
-	.to(".section-benefits__back-video-play-btn", 0.7, {x: 0, y: 0, rotation: 360 })
-	.fromTo(".section-benefits__back-video", {autoAlpha: 0.6}, {autoAlpha: 1, duration: 1})
+	.fromTo(".section-benefits__all-advantages-wrapper-color", 0.7, {y: -250, opacity: 0}, {y: 0, opacity: 1})
+	.to(".section-benefits__back-video-play-btn", 0.5, {x: 0, y: 0, rotation: 360, delay: -0.5})
+	.fromTo(".section-benefits__back-video", {autoAlpha: 0.6}, {autoAlpha: 1, duration: 0.5})
 
 //Modes
 gsap.fromTo(".section-modes__back-video", {autoAlpha: 0.2}, {autoAlpha: 0.6, duration: 3})
@@ -51,18 +51,18 @@ let tl2 = gsap.timeline({
     }
 });
 tl2
-    .fromTo(".section-modes__block", 1, {x: -300, opacity: 0}, {x: 0, opacity: 1})
-	.to(".section-modes__back-video-play-btn", 0.7, {x: 0, y: 0, rotation: 360 })
-	.fromTo(".section-modes__back-video", {autoAlpha: 0.6}, {autoAlpha: 1, duration: 1})
+    .fromTo(".section-modes__block", 0.8, {x: -300, opacity: 0}, {x: 0, opacity: 1})
+	.to(".section-modes__back-video-play-btn", 0.5, {x: 0, y: 0, rotation: 360, delay: -0.5})
+	.fromTo(".section-modes__back-video", {autoAlpha: 0.6}, {autoAlpha: 1, duration: 0.5})
 
 //Match
 gsap.fromTo(".section-match__back-photo", {autoAlpha: 0}, {autoAlpha: 1, duration: 3})
 let tl3 = gsap.timeline({
     scrollTrigger: {
-        trigger: '.section-benefits__all-advantages-wrapper-color-block2',
-        start: "center"
+        trigger: ".section-benefits__all-advantages-wrapper",
+        start: "bottom"
     }
 });
 tl3
-	.fromTo(".section-match__block", 1, {x: -300, opacity: 0}, {x: 0, opacity: 1})
+	.fromTo(".section-match__block", 0.8, {x: -300, opacity: 0}, {x: 0, opacity: 1})
 	
